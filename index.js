@@ -17,7 +17,7 @@ client.on("ready", () => {
         assets: {
           large_image: "jsu_logo__",
         },
-        details: A[Math.floor(Math.random() * A.length)]
+        details: A[Math.floor(Math.random() * A.length)],
         buttons: [
           {
             label: "Join",
