@@ -30,4 +30,4 @@ If this doesn't work, please make an issue here as it is most likely a result of
 At the time of writing, having your own custom Rich Presence is not against the Discord Terms of Service as you are not automating your account or modifying any part of your client.  Overall, you should be safe running this script.
 
 ## Miscellaneous:
-If you have any further questions about this or our other projects, you can visit our [support server](https://discord.gg/KBfTgpx) to ask us any questions or give us your feedback about this script.  Feel free to make a pull request for any changes and we'll merge them if they are significant.  Have a good day!
+If you have any further questions about this or our other projects, you can visit our [support server](https://discord.gg/KBfTgpx) to ask us any questions or give us your feedback about this script.  Feel free to make a pull request for any changes or make an issue if something isn't working right. We'll get back to you then.  Have a good day!
