@@ -27,7 +27,7 @@ client.on("ready", () => {
       },
     });
   }, 15000);
-  console.log("started!");
+  console.log("Started!");
 });
 client.login({
   clientId: "671778487761371157",
