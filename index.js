@@ -15,7 +15,7 @@ client.on("ready", () => {
       pid: process.pid,
       activity: {
         assets: {
-          large_image: "jsu_logo__",
+          large_image: "jsu_logo_main",
         },
         details: A[Math.floor(Math.random() * A.length)],
         buttons: [
@@ -30,5 +30,5 @@ client.on("ready", () => {
   console.log("Started!");
 });
 client.login({
-  clientId: "671778487761371157",
+  clientId: "845815307305746513",
 });
