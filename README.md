@@ -13,7 +13,7 @@ Before you can continue, make sure you have the following on your computer:
 ## Quickstart Guide:
 - Fork this repository
 - Save this repository as `index.js`
-- Install the `discord-rpc` NPM package
+- Install the [`discord-rpc`](https://www.npmjs.com/package/discord-rpc) NPM package
 - To start the process, run `node index.js` on your command line
 
 ## Troubleshooting:
