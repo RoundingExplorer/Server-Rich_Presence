@@ -1,5 +1,5 @@
 # Server Rich Presence
-![Rich Presence Image](https://media.discordapp.net/attachments/828750159072460801/850402494798233600/DzF253sBXcdvAAAAAElFTkSuQmCC.png?width=128&height=128)\
+![Rich Presence Image](https://cdn.discordapp.com/attachments/828750159072460801/850402494798233600/DzF253sBXcdvAAAAAElFTkSuQmCC.png?width=128&height=128)\
 Rich presence for promoting JavaScript Universe.
 ## What's Rich Presence?
 > Rich Presence is a new feature from Discord that allows you to surface unique, interesting, and actionable data inside a Discord user’s profile when they play your game! - **Discord Rich Presence Documentation**
