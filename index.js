@@ -1,34 +1,26 @@
-const RPC = require("discord-rpc");
-const client = new RPC.Client({
-  transport: "ipc",
-});
+const DiscordRPC = require('discord-rpc');
+const client = new DiscordRPC.Client({ transport: 'ipc' });
+
 const A = [
-  "Maintaining the peace",
-  "Attempting to teach",
-  "Teaching JavaScript",
-  "Being made fun of",
-  "ReferenceError: LionLuke is not defined",
+    "Maintaining the peace",
+    "Attempting to teach",
+    "Teaching JavaScript",
+    "Being made fun of",
+    "ReferenceError: LionLuke is not defined",
 ];
-client.on("ready", () => {
-  setInterval(() => {
-    client.request("SET_ACTIVITY", {
-      pid: process.pid,
-      activity: {
-        assets: {
-          large_image: "jsu_logo_main",
-        },
-        details: A[Math.floor(Math.random() * A.length)],
-        buttons: [
-          {
-            label: "Join",
-            url: "https://discord.gg/gRxgAWA",
-          },
-        ],
-      },
+
+(async () => {
+    client.on('ready', async () => {
+	setInterval(() => {
+        await client.setActivity({
+            buttons: [{ label: "Join", url: "https://discord.gg/gRxgAWA" }],
+            details: A[Math.floor(Math.random() * A.length)],
+            largeImageKey: "rpc_icon"
+        }).catch(err => console.log(err));
+    }, 15000)
+
+        console.log("Discord Rich Presence has been enabled.");
     });
-  }, 15000);
-  console.log("Started!");
-});
-client.login({
-  clientId: "845815307305746513",
-});
+
+    await client.login({ clientId: "845815307305746513" }).catch(console.error);
+})();
