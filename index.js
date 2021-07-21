@@ -22,5 +22,5 @@ const A = [
         console.log("Discord Rich Presence has been enabled.");
     });
 
-    await client.login({ clientId: "your client ID here" }).catch(console.error);
+    await client.login({ clientId: "845815307305746513" }).catch(console.error);
 })();
