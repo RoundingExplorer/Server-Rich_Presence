@@ -13,7 +13,7 @@ const A = [
     client.on('ready', async () => {
 	setInterval(() => {
         await client.setActivity({
-            buttons: [{ label: "Join", url: "https://discord.gg/gRxgAWA" }],
+            buttons: [{ label: "Join", url: "https://discord.gg/dhFKyJhRE6" }],
             details: A[Math.floor(Math.random() * A.length)],
             largeImageKey: "rpc_icon"
         }).catch(err => console.log(err));
@@ -22,5 +22,5 @@ const A = [
         console.log("Discord Rich Presence has been enabled.");
     });
 
-    await client.login({ clientId: "845815307305746513" }).catch(console.error);
+    await client.login({ clientId: "750034738751733883" }).catch(console.error);
 })();
